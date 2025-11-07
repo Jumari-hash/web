@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "../../bin/llama-gguf"
+  "../../bin/llama-gguf.pdb"
+  "CMakeFiles/llama-gguf.dir/gguf.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/llama-gguf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

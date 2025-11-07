@@ -1,0 +1,10 @@
+prefix=/var/empty/local
+exec_prefix=/var/empty/local
+libdir=/var/empty/local/lib
+includedir=/var/empty/local/include
+
+Name: llama
+Description: Port of Facebook's LLaMA model in C/C++
+Version: 0.0.6969
+Libs: -L${libdir} -lggml -lggml-base -lllama
+Cflags: -I${includedir}

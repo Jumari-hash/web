@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "../../bin/llama-cvector-generator"
+  "../../bin/llama-cvector-generator.pdb"
+  "CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/llama-cvector-generator.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

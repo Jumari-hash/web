@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ggml/include/ggml.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+stdio.h
+-
+
+../ggml/include/gguf.h
+ggml.h
+../ggml/include/ggml.h
+stdbool.h
+-
+stdint.h
+-
+
+/home/runner/workspace/llama.cpp/examples/gguf/gguf.cpp
+ggml.h
+/home/runner/workspace/llama.cpp/examples/gguf/ggml.h
+gguf.h
+/home/runner/workspace/llama.cpp/examples/gguf/gguf.h
+cstdio
+-
+string
+-
+sstream
+-
+vector
+-
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../examples/gguf-hash/deps/rotate-bits/rotate-bits.h
+stdlib.h
+-
+stdint.h
+-
+
+/home/runner/workspace/llama.cpp/examples/gguf-hash/deps/sha256/sha256.c
+rotate-bits/rotate-bits.h
+/home/runner/workspace/llama.cpp/examples/gguf-hash/deps/sha256/rotate-bits/rotate-bits.h
+sha256.h
+/home/runner/workspace/llama.cpp/examples/gguf-hash/deps/sha256/sha256.h
+
+/home/runner/workspace/llama.cpp/examples/gguf-hash/deps/sha256/sha256.h
+stdlib.h
+-
+stdint.h
+-
+

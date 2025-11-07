@@ -1,0 +1,1 @@
+/nix/store/jf181sc1w4ilvzsraqfml9wcl0d3zp7q-replit-runtime-path/bin/c++ -O3 -DNDEBUG CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o -o ../bin/test-tokenizer-0  -Wl,-rpath,/home/runner/workspace/llama.cpp/build/bin: ../common/libcommon.a ../bin/libllama.so ../bin/libggml.so ../bin/libggml-cpu.so ../bin/libggml-base.so 

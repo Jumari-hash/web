@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../common/log.h
+ggml.h
+../common/ggml.h
+
+../ggml/include/ggml.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+stdio.h
+-
+
+/home/runner/workspace/llama.cpp/tests/get-model.cpp
+cstdio
+-
+cstdlib
+-
+cstring
+-
+get-model.h
+/home/runner/workspace/llama.cpp/tests/get-model.h
+
+/home/runner/workspace/llama.cpp/tests/get-model.h
+
+/home/runner/workspace/llama.cpp/tests/test-log.cpp
+log.h
+/home/runner/workspace/llama.cpp/tests/log.h
+cstdlib
+-
+thread
+-
+

@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "../../bin/llama-perplexity"
+  "../../bin/llama-perplexity.pdb"
+  "CMakeFiles/llama-perplexity.dir/perplexity.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/llama-perplexity.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

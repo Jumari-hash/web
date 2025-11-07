@@ -1,0 +1,1 @@
+/nix/store/jf181sc1w4ilvzsraqfml9wcl0d3zp7q-replit-runtime-path/bin/cc -O3 -DNDEBUG CMakeFiles/test-c.dir/test-c.c.o -o ../bin/test-c  -Wl,-rpath,/home/runner/workspace/llama.cpp/build/bin ../bin/libllama.so ../bin/libggml.so ../bin/libggml-cpu.so ../bin/libggml-base.so 
